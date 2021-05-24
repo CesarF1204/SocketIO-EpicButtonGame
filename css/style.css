@@ -1,0 +1,29 @@
+.container {
+    border: 5px solid black;
+    width: 500px; 
+    margin: 30px auto;
+    padding: 10px 50px 25px;
+    box-shadow: 8px 8px 8px rgba(0,0,0,0.5);
+    background-color: whitesmoke;
+    text-align: center;
+}
+span {
+    color: red;
+}
+input#counter, input#reset {
+    border: 1px solid black;
+    width: 175px;
+    margin-top: 10px;
+    padding: 8px 20px;
+    box-shadow: 3px 3px #000;
+    background-color: #2b78e4;
+    color: white;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+input#reset {
+    background-color: red;
+}
